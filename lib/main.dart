@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Container(
-            padding: EdgeInsets.fromLTRB(20.0, 40.0, 20.0, 40.0),
+            padding: EdgeInsets.fromLTRB(0,0,0, 0),
             child: Stack(
               overflow: Overflow.visible,
               children: <Widget>[
@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 150.0,
                     height: 200.0,
                     decoration: BoxDecoration(
-                        color: Colors.cyan,
+                        color:  Colors.deepPurpleAccent ,
                         borderRadius: BorderRadius.circular(10.0)),
                   ),
                 )
@@ -86,7 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 150.0,
                     height: 200.0,
                     decoration: BoxDecoration(
-                        color: Colors.cyan,
+                        color: Colors.limeAccent,
                         borderRadius: BorderRadius.circular(10.0)),
                   ),
                 )
